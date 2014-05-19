@@ -3,42 +3,132 @@
 <head>
   <meta charset="utf-8">
   <title>Shmoogle</title>
+  <link href="app.css" media="screen" rel="stylesheet"/>
 </head>
 	<body>
-		<ul>
-			<li>
-				<a href="http:www.google.com">Navigation</a>
-			</li>
-			<li>
-				<a href="http:www.google.com">Search</a>
-			</li>
-			<li>
-				<a href="http:www.google.com">Search Filters</a>
-			</li>
-		</ul>
-		# app/views/layouts/application.html.erb
-
-		<form>
-		  <label>Shmoogle</label>
-		  <input type="search" name="search">
-		  <input type="submit" value="Search">
-		</form>
-		<ul>
-		  <li>
-		    <a href="#">Web</a>
-		  </li>
-		  <li>
-		    <a href="#">Images</a>
-		  </li>
-		  <li>
-		    <a href="#">Maps</a>
-		  </li>
-		  <li>
-		    <a href="#">Shopping</a>
-		  </li>
-		  <li>
-		    <a href="#">Search Tools</a>
-		  </li>
-		</ul>
+		<div class="navigation-container">
+			<ul class="nav">
+				<li>
+					<a href="http:www.google.com">Search</a>
+				</li>
+				<li>
+					<a href="http:www.google.com">Images</a>
+				</li>
+				<li>
+					<a href="http:www.google.com">Maps</a>
+				</li>
+			</ul>
+		</div>
+		<div class="search-container">
+			<form>
+			  <label>Shmoogle</label>
+			  <input type="search" name="search">
+			  <input type="submit" value="Search">
+			</form>
+		</div>
+		<div class="filters-container">
+			<ul>
+			  <li>
+			    <a href="#">Web</a>
+			  </li>
+			  <li>
+			    <a href="#">Images</a>
+			  </li>
+			  <li>
+			    <a href="#">Maps</a>
+			  </li>
+			  <li>
+			    <a href="#">Shopping</a>
+			  </li>
+			  <li>
+			    <a href="#">Search Tools</a>
+			  </li>
+			</ul>
+		</div>
+		<div class="main-container">
+			<ol class="search-result-list">
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+			    <li>
+			      <div class="search-result">
+			        <h3 class="search-result-title">
+  						<a href="#">Awesome Fake Result Title</a>
+					</h3>
+			        <cite class="search-results-source">www.awesomesauce.com</cite>
+			        <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span>
+			      </div>
+			    </li>
+  			</ol>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'arial', 'san-serif';
+  font-size: 14px;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+  font-family: "Arial Black";
+}
+
+.navigation-container {
+  border-bottom: 1px solid #000000;
+  background: #2d2d2d;
+}
+
+.nav > li > a {
+  color: #bbbbbb;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.nav > li > a:hover {
+  color: #ffffff;
+}
+
+.nav > li > .active,
+.nav > li > a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.search-container {
+  padding: 20px 10px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f4f4f4;
+}
+
+.main-container {
+  width: 512px;
+  margin-left: 135px;
+}
+
+.search-result-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.search-result-title {
+  margin: 0;
+}
+
+.search-results-source {
+  display: block;
+  font-style: normal;
+  color: #009933;
+}
+
+.search-result-list li {
+  margin-bottom: 30px;
+}
+
+.filters-container li{
+  display: block;
+  text-decoration: none;
+  font-family: "Arial Black";
+  margin-left: 100px;
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.filters-container > ul > li > a {
+	text-decoration: none;
+}
+
+.filters-container > ul > li .active,
+.filters-container > ul > li > a:hover {
+  color: red;
+  text-decoration: none;
+}
